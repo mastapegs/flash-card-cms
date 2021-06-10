@@ -1,4 +1,10 @@
-export const flashCard = {
+import { TypeDef } from "@sanity/schema/lib/sanity/typedefs";
+
+interface FlashCardsSchema extends TypeDef {
+  fields: TypeDef[];
+}
+
+export const flashCard: FlashCardsSchema = {
   name: "flashCard",
   title: "Flash Card",
   type: "document",
