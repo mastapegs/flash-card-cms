@@ -23,6 +23,8 @@
     "@sanity/default-login": "^2.10.5",
     "@sanity/desk-tool": "^2.10.5",
     "@sanity/google-maps-input": "^2.10.5",
+    "@sanity/schema": "^2.10.0",
+    "@sanity/types": "^2.10.5",
     "@sanity/vision": "^2.10.5",
     "prop-types": "^15.7",
     "react": "^17.0",
