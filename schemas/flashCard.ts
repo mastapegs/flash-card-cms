@@ -1,7 +1,7 @@
 export const flashCard = {
   name: "flashCard",
-  title: "Flash Card",
   type: "document",
+  title: "Flash Card",
   jsonType: "object",
   fields: [
     {
@@ -10,9 +10,10 @@ export const flashCard = {
       fields: [
         {
           name: "question",
+          type: "array",
           title: "Question",
           description: "This flash-card's question",
-          type: "string",
+          of: [{ type: "block" }],
         },
       ],
     },
@@ -22,8 +23,9 @@ export const flashCard = {
       fields: [
         {
           name: "answer",
-          type: "string",
+          type: "array",
           description: "This flash-card's answer",
+          of: [{ type: "block" }],
         },
       ],
     },
